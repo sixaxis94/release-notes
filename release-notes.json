@@ -2,6 +2,32 @@
   "items": [
     {
       "product": "plugin",
+      "version": "1.0.1",
+      "date": "2026-04-10",
+      "title": "Initial release",
+      "summary": "??",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "icon": "spark",
+              "text": "Introduced plugin installer and auto-update support"
+            },
+            {
+              "icon": "wrench",
+              "text": "Added dashboard version detection (Lite vs Pro)"
+            },
+            {
+              "icon": "bug",
+              "text": "Various stability improvements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product": "plugin",
       "version": "1.0.0",
       "date": "2026-04-10",
       "title": "Initial release",

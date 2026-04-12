@@ -6,6 +6,7 @@
       "date": "2026-04-10",
       "title": "Initial release",
       "summary": "First public release of Mission Control plugin",
+      "image": "images/commandspec_pro.png",
       "blocks": [
         {
           "type": "list",
@@ -23,11 +24,6 @@
               "text": "Various stability improvements"
             }
           ]
-        },
-        {
-          "type": "image",
-          "src": "images/commandspec_pro.png",
-          "caption": "New orbital tracker layout"
         }
       ]
     },
@@ -74,32 +70,6 @@
             {
               "icon": "spark",
               "text": "Orbital tracker visualization"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "product": "plugin",
-      "version": "1.0.0",
-      "date": "2026-04-10",
-      "title": "Initial release",
-      "summary": "First public release of Mission Control plugin",
-      "blocks": [
-        {
-          "type": "list",
-          "items": [
-            {
-              "icon": "spark",
-              "text": "Introduced plugin installer and auto-update support"
-            },
-            {
-              "icon": "wrench",
-              "text": "Added dashboard version detection (Lite vs Pro)"
-            },
-            {
-              "icon": "bug",
-              "text": "Various stability improvements"
             }
           ]
         }

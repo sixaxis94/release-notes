@@ -2,46 +2,21 @@
   "items": [
     {
       "product": "plugin",
-      "version": "0.9.4",
+      "version": "1.0.0",
       "blocks": [
         {
-          "type": "highlight",
-          "text": "New tab added: Release notes",
-          "children": [
-            {
-              "type": "text",
-              "text": "You can now view all the release notes related to the plugin and dashboards on this page"
-            },
-            {
-              "type": "text",
-              "text": "The home page also displays the three latest release notes"
-            }
+          "type": "notes",
+          "content": [
+            "-! New tab added: Release notes",
+            "-- View all historical updates in one place",
+            "-- Home page now shows the latest 3 updates",
+            "- Added support for inline screenshots"
           ]
         },
         {
-          "type": "text",
-          "text": "Added plugin installer and auto-update support."
-        },
-        {
-          "type": "text",
-          "text": "Added Lite vs Pro dashboard detection."
-        },
-        {
           "type": "image",
-          "src": "images/commandspec_pro.png"
-        },
-        {
-          "type": "text",
-          "text": "Improved telemetry processing",
-          "children": [
-            {
-              "type": "text",
-              "text": "Reduced lag when opening dashboards"
-            },
-            {
-              "type": "highlight",
-              "text": "Fixed freezing issue on startup"
-            }
+          "src": [
+            "images/commandspec_pro.png"
           ]
         }
       ]
@@ -49,53 +24,40 @@
     {
       "product": "drivespec",
       "version": "1.0.0",
-      "date": "2026-04-10",
       "blocks": [
         {
-          "type": "highlight",
-          "text": "Drive Spec launched."
-        },
-        {
-          "type": "text",
-          "text": "8 dashboard pages for race data."
-        },
-        {
-          "type": "text",
-          "text": "Includes clickable pit service menu and pit entry optimizer."
+          "type": "notes",
+          "content": [
+            "- 8 dashboard pages for race data",
+            "- Clickable pit service menu",
+            "-! Pit entry optimizer"
+          ]
         }
       ]
     },
     {
       "product": "commandspec",
       "version": "1.0.0",
-      "date": "2026-04-10",
       "blocks": [
         {
-          "type": "highlight",
-          "text": "Command Spec launched."
-        },
-        {
-          "type": "text",
-          "text": "Race engineer companion dashboard."
-        },
-        {
-          "type": "text",
-          "text": "Includes orbital tracker visualization."
+          "type": "notes",
+          "content": [
+            "- 4 dashboard pages",
+            "-! Orbital tracker visualization"
+          ]
         }
       ]
     },
     {
       "product": "flagbox",
       "version": "1.0.0",
-      "date": "2026-04-10",
       "blocks": [
         {
-          "type": "highlight",
-          "text": "Flag Box released."
-        },
-        {
-          "type": "text",
-          "text": "Compact race flag and status display."
+          "type": "notes",
+          "content": [
+            "- Real-time race flags",
+            "- Configurable display options"
+          ]
         }
       ]
     }

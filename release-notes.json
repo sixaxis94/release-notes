@@ -20,6 +20,20 @@
         {
           "type": "image",
           "src": "images/commandspec_pro.png"
+        },
+        {
+          "type": "text",
+          "text": "Improved telemetry processing",
+          "children": [
+            {
+              "type": "text",
+              "text": "Reduced lag when opening dashboards"
+            },
+            {
+              "type": "highlight",
+              "text": "Fixed freezing issue on startup"
+            }
+          ]
         }
       ]
     },

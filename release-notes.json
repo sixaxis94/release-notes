@@ -2,12 +2,21 @@
   "items": [
     {
       "product": "plugin",
-      "version": "1.0.0",
-      "date": "2026-04-10",
+      "version": "0.9.4",
       "blocks": [
         {
           "type": "highlight",
-          "text": "Mission Control plugin is now live."
+          "text": "New tab added: Release notes",
+          "children": [
+            {
+              "type": "text",
+              "text": "You can now view all the release notes related to the plugin and dashboards on this page"
+            },
+            {
+              "type": "text",
+              "text": "The home page also displays the three latest release notes"
+            }
+          ]
         },
         {
           "type": "text",

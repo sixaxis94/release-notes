@@ -4,26 +4,26 @@
       "product": "plugin",
       "version": "1.0.0",
       "date": "2026-04-10",
-      "title": "Initial release",
-      "summary": "First public release of Mission Control plugin",
-      "image": "images/commandspec_pro.png",
       "blocks": [
         {
-          "type": "list",
-          "items": [
-            {
-              "icon": "spark",
-              "text": "Introduced plugin installer and auto-update support"
-            },
-            {
-              "icon": "wrench",
-              "text": "Added dashboard version detection (Lite vs Pro)"
-            },
-            {
-              "icon": "bug",
-              "text": "Various stability improvements"
-            }
-          ]
+          "type": "highlight",
+          "text": "Mission Control plugin is now live."
+        },
+        {
+          "type": "text",
+          "text": "Added plugin installer and auto-update support."
+        },
+        {
+          "type": "text",
+          "text": "Added Lite vs Pro dashboard detection."
+        },
+        {
+          "type": "image",
+          "src": "images/commandspec_pro.png"
+        },
+        {
+          "type": "image",
+          "src": "images/commandspec_pro.png"
         }
       ]
     },
@@ -31,25 +31,18 @@
       "product": "drivespec",
       "version": "1.0.0",
       "date": "2026-04-10",
-      "title": "Drive Spec launch",
-      "summary": "Primary driver dashboard with multiple pages and tools",
       "blocks": [
         {
-          "type": "list",
-          "items": [
-            {
-              "icon": "spark",
-              "text": "8 dashboard pages for race data"
-            },
-            {
-              "icon": "spark",
-              "text": "Clickable pit service menu"
-            },
-            {
-              "icon": "spark",
-              "text": "Pit entry optimizer"
-            }
-          ]
+          "type": "highlight",
+          "text": "Drive Spec launched."
+        },
+        {
+          "type": "text",
+          "text": "8 dashboard pages for race data."
+        },
+        {
+          "type": "text",
+          "text": "Includes clickable pit service menu and pit entry optimizer."
         }
       ]
     },
@@ -57,21 +50,18 @@
       "product": "commandspec",
       "version": "1.0.0",
       "date": "2026-04-10",
-      "title": "Command Spec launch",
-      "summary": "Race engineer companion dashboard",
       "blocks": [
         {
-          "type": "list",
-          "items": [
-            {
-              "icon": "spark",
-              "text": "4 dashboard pages"
-            },
-            {
-              "icon": "spark",
-              "text": "Orbital tracker visualization"
-            }
-          ]
+          "type": "highlight",
+          "text": "Command Spec launched."
+        },
+        {
+          "type": "text",
+          "text": "Race engineer companion dashboard."
+        },
+        {
+          "type": "text",
+          "text": "Includes orbital tracker visualization."
         }
       ]
     },
@@ -79,21 +69,14 @@
       "product": "flagbox",
       "version": "1.0.0",
       "date": "2026-04-10",
-      "title": "Flag Box release",
-      "summary": "Compact race flag and status display",
       "blocks": [
         {
-          "type": "list",
-          "items": [
-            {
-              "icon": "spark",
-              "text": "Real-time race flags"
-            },
-            {
-              "icon": "wrench",
-              "text": "Configurable display options"
-            }
-          ]
+          "type": "highlight",
+          "text": "Flag Box released."
+        },
+        {
+          "type": "text",
+          "text": "Compact race flag and status display."
         }
       ]
     }

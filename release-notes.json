@@ -23,12 +23,12 @@
               "text": "Various stability improvements"
             }
           ]
-        }
+        },
         {
-  "type": "image",
-  "src": "images/commandspec_pro.png",
-  "caption": "New orbital tracker layout"
-}
+          "type": "image",
+          "src": "images/commandspec_pro.png",
+          "caption": "New orbital tracker layout"
+        }
       ]
     },
     {

@@ -18,7 +18,16 @@
           "src": [
             "images/commandspec_pro.png"
           ]
-        }
+        },
+        {
+          "type": "notes",
+          "content": [
+            "- New tab added: Release notes",
+            "-- View all historical updates in one place",
+            "--! Home page now shows the latest 3 updates",
+            "- Added support for inline screenshots"
+          ]
+        },
       ]
     },
     {

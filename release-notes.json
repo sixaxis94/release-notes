@@ -33,7 +33,10 @@
             "- Tweaked the visuals for the slow car alert so that the linear gauge is easier to see"
           ]
         },
-        
+        {
+          "type": "image",
+          "src": ["images/fb_1.0.1.png"]
+        }
       ]
     },
     {
@@ -53,7 +56,7 @@
         },
         {
           "type": "image",
-          "src": ["images/fb_1.0.1.png"]
+          "src": ["images/cs_2.0.3.png"]
         }
       ]
     },

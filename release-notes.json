@@ -45,6 +45,21 @@
       ]
     },
     {
+      "product": "plugin",
+      "version": "1.0.0",
+      "blocks": [
+        {
+          "type": "notes",
+          "content": [
+            "-! New tab added: Release notes",
+            "-- View all historical updates in one place",
+            "-- Home page now shows the latest 3 updates",
+            "- Added support for inline screenshots"
+          ]
+        }
+      ]
+    },
+    {
       "product": "commandspec",
       "version": "1.0.0",
       "blocks": [

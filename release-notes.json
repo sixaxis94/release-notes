@@ -2,7 +2,7 @@
   "items": [
     {
       "product": "plugin",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "blocks": [
         {
           "type": "notes",
@@ -32,10 +32,6 @@
             "- The slow car alert yellow flag now flashes until you are within 100m of the slow/stopped car. This is now consistent with the logic present in the slow car indicator in Drive Spec.",
             "- Tweaked the visuals for the slow car alert so that the linear gauge is easier to see"
           ]
-        },
-        {
-          "type": "image",
-          "src": ["images/fb_1.0.1.png"]
         }
       ]
     },

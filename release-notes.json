@@ -31,59 +31,88 @@
       ]
     },
     {
-      "product": "drivespec",
-      "version": "1.0.0",
+      "product": "flagbox",
+      "version": "1.0.1",
       "blocks": [
         {
           "type": "notes",
           "content": [
-            "- 8 dashboard pages for race data",
-            "- Clickable pit service menu",
-            "-! Pit entry optimizer"
-          ]
-        }
-      ]
-    },
-    {
-      "product": "plugin",
-      "version": "1.0.0",
-      "blocks": [
-        {
-          "type": "notes",
-          "content": [
-            "-! New tab added: Release notes",
-            "-- View all historical updates in one place",
-            "-- Home page now shows the latest 3 updates",
-            "- Added support for inline screenshots"
+            "-! New feature: 'White flag next lap' indicator",
+            "-- The flag box displays an indicator when there's a chance that the white flag has been waved for the overall leader",
+            "-- Since iRacing only displays the white flag when you're approaching the Start/Finish line, having this indicator helps you decide if you need to come in for a splash and dash, or choosing when to make a pass if you're battling someone closely and need to know if you have 1 or 2 laps left",
+            "-- Note: this is functionally identical to the feature released in Command Spec recently.",
+            "- Added a pit limiter indicator",
+            "- Added a towing indicator",
+            "- Fixed bug where time left would occasionally disappear for a few seconds during qual sessions",
+            "- The slow car alert yellow flag now flashes until you are within 100m of the slow/stopped car. This is now consistent with the logic present in the slow car indicator in Drive Spec.",
+            "- Tweaked the visuals for the slow car alert so that the linear gauge is easier to see"
           ]
         }
       ]
     },
     {
       "product": "commandspec",
-      "version": "1.0.0",
+      "version": "2.0.3",
       "blocks": [
         {
           "type": "notes",
           "content": [
-            "- 4 dashboard pages",
-            "-! Orbital tracker visualization"
+            "- Added vehicle settings to the Relative page (see screenshot below). This replaces the pit service menu on that page.",
+            "- Fixed an issue which caused the pit service menu to not be clickable",
+            "- Fixed an issue which caused the Simhub controls (redraw pit lane/discard reference lap) to not be clickable",
+            "- Added a more prominent background for the player's line item on the time table, orbital tracker and driver roster. This helps identify your place on the table(s) a little more easily.",
+            "- Minor visual updates to the flag box",
+            "- Minor bug fixes"
+          ]
+        },
+        {
+          "type": "image",
+          "src": [
+            "images/cs_2.0.3.png"
           ]
         }
       ]
     },
     {
-      "product": "flagbox",
-      "version": "1.0.0",
+      "product": "commandspec",
+      "version": "2.0.2",
       "blocks": [
         {
           "type": "notes",
           "content": [
-            "- Real-time race flags",
-            "- Configurable display options"
+            "-! New feature: pit exit marker on leaderboard",
+            "-- When pit service items are active (refueling and/or tires), a green marker appears on the leaderboard indicating the position you'll likely be in if you pitted that lap (see screenshot below).",
+            "-- This marker also indicates approximate time lost by factoring time needed for refueling, changing tires, and driving in the pit lane with the limiter engaged.",
+            "-- As with the pit exit marker on the orbital tracker, this feature is available for the following cars/car classes: GT3, GT4, GTP, TCR, Dallara P217, Ligier P320, Global Mazda MX-5 Cup, Toyota GR86, Renault Clio, BMW M2 CS Racing",
+            "-- This marker is present on the leaderboard page as well as the orbital tracker page",
+            "-! New feature: 'White flag next lap' indicator",
+            "-- The flag box displays an indicator when there's a chance that the white flag has been waved for the overall leader (see screenshot below).",
+            "-- Since iRacing only displays the white flag when you're approaching the Start/Finish line, having this indicator helps you decide if you need to come in for a splash and dash, or choosing when to make a pass if you're battling someone closely and need to know if you have 1 or 2 laps left.",
+            "- The flag box now displays the session time left (when applicable) when no flags are active - this is now consistent with the Flag Box dashboard",
+            "- The blue new best lap indicator on the leaderboard and orbital tracker pages is no longer displayed if the driver isn't connected to the session",
+            "- The overall leader is now permanently exposed on the orbital tracker similar to the class leader - this makes it easier to find them on the map at a quick glance.",
+            "- Minor bug fixes"
+          ]
+        },
+        {
+          "type": "image",
+          "src": [
+            "images/cs_2.0.2.png"
           ]
         }
       ]
-    }
+    },
+    {
+      "product": "drivespec",
+      "version": "4.0.0",
+      "blocks": [
+        {
+          "type": "notes",
+          "content": [
+            "- Release notes not found"
+          ]
+        }
+      ]
+    },
   ]
 }

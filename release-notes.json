@@ -1,6 +1,43 @@
 {
   "items": [
     {
+      "product": "drivespec",
+      "version": "4.0.2",
+      "blocks": [
+        {
+          "type": "notes",
+          "content": [
+            "-! New feature: Side indicator",
+            "-- You can now customize what you see on the left and ride side of the central dial",
+            "-- It currently supports the following: fuel level, timing delta, fuel target +0",
+            "-- The default setting displays the static yellow bars"
+          ]
+        },
+        {
+          "type": "image",
+          "src": ["images/ds_4.0.2.png"]
+        }
+      ]
+    },
+    {
+      "product": "plugin",
+      "version": "1.0.2",
+      "blocks": [
+        {
+          "type": "notes",
+          "content": [
+            "- Resolved an issue with account linking and validation",
+            "- Added support for the new side indicator feature in Drive Spec",
+            "-- This feature can be accessed in the Drive Spec tab"
+          ]
+        },
+        {
+          "type": "image",
+          "src": ["images/plugin_1.0.2.png"]
+        }
+      ]
+    },
+    {
       "product": "plugin",
       "version": "1.0.1",
       "blocks": [

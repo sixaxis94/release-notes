@@ -128,18 +128,6 @@
           "src": ["images/cs_2.0.2.png"]
         }
       ]
-    },
-    {
-      "product": "drivespec",
-      "version": "4.0.0",
-      "blocks": [
-        {
-          "type": "notes",
-          "content": [
-            "- Release notes not found"
-          ]
-        }
-      ]
     }
   ]
 }

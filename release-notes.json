@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "product": "plugin",
+      "version": "1.0.3",
+      "blocks": [
+        {
+          "type": "notes",
+          "content": [
+            "- Improved reliability of account linking and validation",
+            "- WIP: Laying the foundation for a major update to the underlying data source",
+            "-- This will improve accuracy and reliability across a number of features",
+            "-- More to follow!"
+          ]
+        }
+      ]
+    },
+    {
       "product": "drivespec",
       "version": "4.0.2",
       "blocks": [

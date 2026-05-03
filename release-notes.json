@@ -15,9 +15,9 @@
             "-- This setting can be found in the Command Spec customizations page of the plugin",
             "-! Significant updates to the telemetry data stream",
             "-- The dashboard is a lot more performant and should run a lot smoother",
-            "-- The orbital tracker benefits the most. Driver markers are no longer going to jump around. Class colors will always be reported accurately",
+            "-- The orbital tracker benefits the most. Driver markers are no longer going to jump around. Class colors will always be reported accurately.",
             "- Fixed an issue with the time table pit marker occasionally jumping around",
-            "- Added an out lap indicator in the time table and orbital tracker",
+            "- Added an out lap indicator in the time table",
             "- The out lap indicator logic has been tweaked and is now more reliable",
             "- Fixed a minor bug in the timing delta widget to account for DeltaToSessionBest null state",
             "- Fixed a minor bug in required/optional repair code that would occasionally throw an error in the Simhub log",
@@ -43,11 +43,10 @@
             "-- This is especially useful in cars like the MX-5 where the pit limiter disengages if you're on the first gear",
             "- Added the pit stop marker on the leaderboard",
             "-- I wasn't able to adjust the visuals so that the text is legible on small screens. Expect this to be tweaked.",
-            "- Fixed an issue where the fuel level was being displayed incorrectly if the Simhub fuel unit was set to Gallons",
             "- Fixed a minor bug in the timing delta widget to account for DeltaToSessionBest null state",
             "- Fixed a minor bug in required/optional repair code that would occasionally throw an error in the Simhub log",
             "- I've temporarily suppressed the battle indicator from the leaderboard to address a logic issue. I'll have this back online in the next update.",
-            "- Known issue: the fuel isn't displayed correctly if you have the Simhub setting set to Gallons. This will be fixed in the next update but if you'd like to use imperial units, set it to Gal in the Mission Control plugin and Liters in Simhub settings. This also effects the refuel helper widget.",
+            "- Known issue: the fuel isn't displayed correctly if you have the Simhub setting set to Gallons. This will be fixed in the next update but if you'd like to use imperial units, set it to Gal in the Mission Control plugin and Liters in Simhub settings. This also effects the refuel helper widget."
           ]
         }
       ]

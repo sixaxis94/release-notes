@@ -1,6 +1,63 @@
 {
   "items": [
     {
+    "product": "drivespec",
+    "version": "4.0.4",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- Added an option to toggle the corner accents around the dashboard",
+          "-- I'd recommend disabling them if you're running the dash on a non-native resolution",
+          "- Fixed an issue preventing the pit entry optimizer from triggering correctly",
+          "- Fixed an issue where fuel data was displayed incorrectly if the SimHub fuel unit was set to Gallons"
+        ]
+      }
+    ]
+  },
+  {
+    "product": "commandspec",
+    "version": "2.0.6",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- Added an option to toggle the corner accents around the dashboard",
+          "-- I'd recommend disabling them if you're running the dash on a non-native resolution",
+          "- Fixed an issue where fuel data was displayed incorrectly if the SimHub fuel unit was set to Gallons",
+          "- Removed the blinking incident alert icon",
+          "- Minor visual tweaks"
+        ]
+      }
+    ]
+  },
+  {
+    "product": "flagbox",
+    "version": "1.0.3",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- Added an option to toggle the corner accents around the dashboard",
+          "-- I'd recommend disabling them if you're running the dash on a non-native resolution"
+        ]
+      }
+    ]
+  },
+  {
+    "product": "plugin",
+    "version": "1.0.5",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- Added support for the corner accent toggle",
+          "- Added relevant properties to support recent changes to Drive Spec and Command Spec"
+        ]
+      }
+    ]
+  },
+    {
       "product": "commandspec",
       "version": "2.0.5",
       "blocks": [

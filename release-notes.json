@@ -22,6 +22,7 @@
         "type": "notes",
         "content": [
           "- The end of race leaderboard ordering bug has been fixed",
+          "- The leaderboard page layout has been adjusted to span the width of the container in non race sessions",
           "- Slightly adjusted best/last lap time and delta colors"
         ]
       }

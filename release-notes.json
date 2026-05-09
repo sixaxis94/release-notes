@@ -2,6 +2,33 @@
   "items": [
     {
     "product": "drivespec",
+    "version": "4.0.5",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- The battle indicator is now back online in the leaderboard",
+          "- The end of race leaderboard ordering bug has been fixed",
+          "- Slightly adjusted best/last lap time and delta colors"
+        ]
+      }
+    ]
+  },
+  {
+    "product": "commandspec",
+    "version": "2.0.7",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- The end of race leaderboard ordering bug has been fixed",
+          "- Slightly adjusted best/last lap time and delta colors"
+        ]
+      }
+    ]
+  },
+  {
+    "product": "drivespec",
     "version": "4.0.4",
     "blocks": [
       {

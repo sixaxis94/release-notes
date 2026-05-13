@@ -2,6 +2,35 @@
   "items": [
     {
     "product": "drivespec",
+    "version": "4.0.6",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- Fixed an issue where the fuel gauge and related variables were flickering while fueling"
+        ]
+      }
+    ]
+  },
+  {
+    "product": "commandspec",
+    "version": "2.0.8",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "-! Added an option to show/hide dashboard pages",
+          "- Fixed an issue where the fuel gauge and related variables were flickering while fueling"
+        ]
+      },
+      {
+          "type": "image",
+          "src": ["images/cs_2.0.8.png"]
+        }
+    ]
+  },
+    {
+    "product": "drivespec",
     "version": "4.0.5",
     "blocks": [
       {

@@ -136,7 +136,7 @@
             "- Fixed a minor bug in the timing delta widget to account for DeltaToSessionBest null state",
             "- Fixed a minor bug in required/optional repair code that would occasionally throw an error in the Simhub log",
             "- Note: the class positions on the relative panel update at the end of each lap. While this mimics iRacing's relative black box, this isn't an intentional choice and I intend to update it so it shows the live position.",
-            "- Known issue: the driver ordering at the end of the race is bugged. This will be fixed soon in the next update.",
+            "- Known issue: the driver ordering at the end of the race is bugged. This will be fixed soon in the next update."
           ]
         },
         {

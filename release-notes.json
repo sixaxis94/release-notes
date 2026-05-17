@@ -1,5 +1,34 @@
 {
   "items": [
+  {
+    "product": "drivespec",
+    "version": "4.0.7",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- Removed the reference lap time that occasionally appeared on the Race page",
+          "-- This was originally created to solve an issue where a best lap time set in a previous session, like qualifying, would carry over into the next session and cause the delta to compare against it",
+          "- Fixed the split view divider extending into the field spread in non-race sessions"
+        ]
+      }
+    ]
+  },
+  {
+    "product": "commandspec",
+    "version": "2.0.9",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- Fixed a number of bugs related to pit detection for displayed lap times",
+          "-- Previously, the first two laps of race and qualifying sessions were incorrectly marked as pitted",
+          "- Lap times are now stored within a session and no longer clear when you exit the car",
+          "- The speed profile is now hidden by default"
+        ]
+      }
+    ]
+  },
     {
     "product": "drivespec",
     "version": "4.0.6",

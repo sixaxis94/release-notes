@@ -1,5 +1,22 @@
 {
   "items": [
+    {
+    "product": "commandspec",
+    "version": "2.0.10",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "-! New feature: Utility slot",
+          "-- You can now display additional information within the flag box",
+          "-- Select between a handful of options like position, pit window status, session time etc from the plugin",
+          "-- Note: the session time has now been integrated as an option within the utility slot",
+          "- Fixed an issue where class positions and position deltas in the Relative leaderboard were occasionally displaying incorrectly",
+          "- Fixed an issue which caused the leaderboard to not populate while gridding"
+        ]
+      }
+    ]
+  }
   {
     "product": "drivespec",
     "version": "4.0.7",

@@ -12,7 +12,14 @@
           "-- Select between a handful of options like position, pit window status, session time etc from the plugin",
           "-- Note: the session time has now been integrated as an option within the utility slot",
           "- Fixed an issue where class positions and position deltas in the Relative leaderboard were occasionally displaying incorrectly",
-          "- Fixed an issue which caused the leaderboard to not populate while gridding"
+          "- Fixed an issue which caused the leaderboard to not populate while gridding",
+          "- Fixed an issue where the player's marker could appear twice in the orbital tracker",
+          "- Fixed an issue where the player's class position wasn't displaying in the Relative panel after getting out of the car in qual sessions",
+          "- The class positions and position deltas now appear correctly for similar class drivers while gridding/during the formation lap",
+          "- Fixed a bug where the player's leaderboard entry was displayed with stint laps 0 when the player is in the pits",
+          "- Fixed a bug where some drivers were marked as being on an out lap at the start of a race",
+          "- Removed the pit stop service time and time lost data point from the orbital tracker",
+          "-- This information can now be displayed by setting it in the flag box utility slot"
         ]
       }
     ]

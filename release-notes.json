@@ -1,6 +1,35 @@
 {
   "items": [
     {
+    "product": "drivespec",
+    "version": "4.0.8",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "-! New feature: Stealth Mode",
+          "-- Stealth Mode is designed to reduce distractions by only displaying critical information",
+          "-- This mode can be activated by assigning Widget Action B to a key press or steering wheel button",
+          "-! The pit entry optimizer has a new look",
+          "-- The two linear gauges are now displayed horizontally at the top of the screen, making them easier to see in your peripheral vision",
+          "-- The top gauge, which represents speed delta, switches from red to green when the rate of deceleration is considered safe",
+          "-- The new position is especially helpful if you're running the dash on a DDU mounted to your wheelbase, particularly on tracks with pit cones just after a sharp turn",
+          "-- The distance bounds for the pit cones have been adjusted slightly",
+          "- Vehicle settings has been updated to support the new BMW M2 Racing, where ABS is replaced with DSC",
+          "- Fixed an issue where lap times weren't clearing when jumping between Test Drive sessions",
+          "- Fixed a few minor visual bugs in the leaderboard"
+        ]
+      },
+      {
+        "type": "image",
+        "src": [
+          "images/ds_4.0.8_1.png",
+          "images/ds_4.0.8_2.png"
+        ]
+      }
+    ]
+  },
+    {
     "product": "commandspec",
     "version": "2.0.10",
     "blocks": [

@@ -1,6 +1,43 @@
 {
   "items": [
     {
+    "product": "commandspec",
+    "version": "2.0.11",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "-! Team names are now displayed automatically in team events",
+          "- Added a column for interval next to the driver name",
+          "- Fixed an issue where the previous lap times were never being populated (including last and best lap time) if the player started from the pit lane",
+          "- Fixed a minor bug related to driver rating opacity",
+          "- Updated the out lap indicator color to improve visibility",
+          "- Added a subtle fade effect for driver names that extend beyond the available space"
+        ]
+      },
+      {
+        "type": "image",
+        "src": [
+          "images/cs_2.0.11.png"
+        ]
+      }
+    ]
+  },
+    {
+    "product": "drivespec",
+    "version": "4.0.9",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- Fixed a bug where the manufacturer logo wasn't appearing in the Vehicle Adjustment Notes page",
+          "- Fixed a bug where the visual divider was sometimes not appearing in the leaderboard when split view is active",
+          "- Updated the out lap indicator color to improve visibility"
+        ]
+      }
+    ]
+  },
+    {
     "product": "drivespec",
     "version": "4.0.8",
     "blocks": [

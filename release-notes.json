@@ -1,6 +1,61 @@
 {
   "items": [
     {
+  "product": "commandspec",
+  "version": "2.0.12",
+  "blocks": [
+    {
+      "type": "notes",
+      "content": [
+        "- Team names can now be toggled from the plugin settings",
+        "- Mini orbital tracker support has been extended to the leaderboard page",
+        "-- This was previously only available on the Relative page",
+        "-- This setting can be toggled from within the plugin",
+        "- Added an option to toggle the track rejoin helper widget",
+        "- Added an option to toggle flag blinking",
+        "- The leaderboard now populates data as soon as you enter a session",
+        "- Fixed an issue where the leaderboard was cleared if you chose to end the qualifying session early",
+        "- Fixed an issue where drivers from other run groups weren't appearing on the leaderboard in official practice sessions",
+        "- Fixed an issue in the Relative panel where the player's stint laps could reset after an off track",
+        "- Fixed an issue where the player was incorrectly reported as being on pit road after going off track",
+        "- Fixed an issue where the player's reported stint laps were sometimes off by 1",
+        "- Fixed an issue in some hosted sessions where other drivers' last and best lap times could carry over when the session changed",
+        "- Improved plugin-level performance to help the dashboard run more smoothly, especially with larger grid sizes",
+        "- Improved account linking so active members should stay connected without needing to reauthorize periodically",
+        "-- You may need to reconnect one final time to transition to the updated system"
+      ]
+    }
+  ]
+},
+    {
+    "product": "drivespec",
+    "version": "4.0.10",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- The leaderboard now populates data as soon as you enter a session",
+          "- Added an option to toggle flag blinking",
+          "- Fixed an issue where the leaderboard was cleared if you chose to end the qualifying session early",
+          "- Fixed an issue where drivers from other run groups weren't appearing on the leaderboard in official practice sessions",
+          "- Improved plugin-level performance to help the dashboard run more smoothly, especially with larger grid sizes"
+        ]
+      }
+    ]
+  },
+    {
+    "product": "flagbox",
+    "version": "1.0.4",
+    "blocks": [
+      {
+        "type": "notes",
+        "content": [
+          "- Added an option to toggle flag blinking"
+        ]
+      }
+    ]
+  },
+    {
     "product": "commandspec",
     "version": "2.0.11",
     "blocks": [

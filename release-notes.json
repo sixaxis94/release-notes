@@ -2,6 +2,96 @@
   "items": [
     {
   "product": "commandspec",
+  "version": "2.1.0",
+  "blocks": [
+    {
+      "type": "notes",
+      "content": [
+        "-! New feature: Customizable slots",
+        "-- The bottom-right panel on the Relative and Leaderboard pages, which previously showed tire temperatures and wear, can now be customized to show other information",
+        "-- You can currently choose between tire info, head-to-head, race progress, sector delta to personal best, and sector delta to the best times set in your class",
+        "-- If experimental features are enabled, fuel info will also be available, but note that the visualizer doesn't currently work",
+        "-- This option can be set independently for the Relative and Leaderboard pages",
+        "-! New feature: Orbital tracker slot",
+        "-- You can now display additional information in the center of the mini orbital tracker on the Relative and Leaderboard pages",
+        "-- You can currently choose between race progress, personal and class sector deltas, or leave it disabled",
+        "-- Functionally, these options are identical to their counterparts in the customizable slots",
+        "-- This option can be set independently for the Relative and Leaderboard pages",
+        "-! The lap history widget can now be toggled to display sector times",
+        "-- If experimental features are enabled, you can also display fuel used for each lap, which replaces the lap time delta in the second column",
+        "- The pit exit marker now more accurately represents the exit location",
+        "-- The data source for marker velocity is now based on a lap timing profile instead of a speed profile",
+        "- Introduced an experimental option to display league divisions for the Broken Wing Racing League",
+        "-- This currently only supports the BWRL GT3 league",
+        "-- Feel free to reach out on Discord if you'd like to see your league integrated into the plugin",
+        "- Added an unstable connection indicator to the various leaderboards for drivers experiencing telemetry dropouts",
+        "- Improved leaderboard stability so brief driver connection interruptions no longer cause positions and rows to jump around",
+        "- Slightly improved towing detection to reduce the chances of drivers incorrectly jumping to the top of the leaderboard after towing",
+        "-- This issue may still occur, but it should happen less often",
+        "- Fixed an issue where the Driver Roster page wasn't displaying the correct race order after the checkered flag",
+        "- Made a minor layout adjustment to the Driver Roster page",
+        "- Fixed an issue where the speed profile wasn't appearing in the orbital tracker when selected",
+        "- Slightly adjusted the shield used for multi-class drivers in the Relative panel so it no longer obstructs the gap",
+        "- Fixed a minor issue with name masking in the Relative panel to account for null states"
+      ]
+    },
+    {
+      "type": "image",
+      "src": [
+        "images/cs_2.1.0.png"
+      ]
+    }
+  ]
+},
+{
+  "product": "plugin",
+  "version": "1.1.4",
+  "blocks": [
+    {
+      "type": "notes",
+      "content": [
+        "-! The Command Spec settings page has a new look",
+        "-- The different customization options are now grouped more meaningfully, making the page easier to navigate",
+        "-- For widgets that are present on multiple pages, you can now choose what you'd like to see on each page individually",
+        "-- For example, Slot A, Slot B, and the Orbital Tracker Slot can now be set independently for the Relative and Leaderboard pages",
+        "-- A Pro badge has been added to settings that are only available to Pro members",
+        "-- This new page template will be rolled out to Drive Spec, and eventually Flag Box, in a future update",
+        "-! A new experimental features toggle has been added to the home page",
+        "-- Enabling this will expose additional options in the various dashboard settings pages",
+        "- Gap computation has been overhauled and should now more closely match the in-sim values",
+        "-- Gaps should now display accurate values even when track conditions are changing, such as in a race that goes from dry to wet",
+        "-- A reference lap no longer needs to be set for gaps to appear right away"
+      ]
+    },
+    {
+      "type": "image",
+      "src": [
+        "images/plugin_1.1.4.png"
+      ]
+    }
+  ]
+},
+{
+  "product": "drivespec",
+  "version": "4.0.11",
+  "blocks": [
+    {
+      "type": "notes",
+      "content": [
+        "- Added a Spotter side indicator option",
+        "-- If enabled, the relevant side arc lights up when there's a car to your left or right",
+        "-- Don't forget to set this for both the left and right side indicators",
+        "- Added an option to toggle low fuel alert blinking",
+        "-- If enabled, you can also limit blinking to when fuel is between 8% and 10%",
+        "-- Use the 8% to 10% threshold if you find the blinking distracting but still want to make sure you don't miss the alert when it's triggered",
+        "- Updated player lap timing to use iRacing's official last and best lap values, keeping the dashboard aligned with the in-sim results",
+        "-- Added detection for laps faster than the official best that were not accepted, such as off-track laps"
+      ]
+    }
+  ]
+},
+    {
+  "product": "commandspec",
   "version": "2.0.12",
   "blocks": [
     {

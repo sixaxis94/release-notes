@@ -1,6 +1,55 @@
 {
   "items": [
     {
+  "product": "drivespec",
+  "version": "4.0.12",
+  "blocks": [
+    {
+      "type": "notes",
+      "content": [
+        "-! New feature: Customizable vehicle adjustments",
+        "-- You can now customize which vehicle adjustments appear in each of the four adjustment slots",
+        "-- Choose from options like ABS, traction control, brake bias, engine map, ERS battery, and push-to-pass where available",
+        "-- Dynamic mode is still available and works the same way as before, automatically showing the most relevant adjustments for the current car",
+        "- The plugin settings page has been refreshed with improved organization and more meaningful grouping for related items",
+        "- Fixed an issue where jumping between different Test Drive sessions could cause stale data, such as the car logo, to remain visible",
+        "- Restored throttle as an option for the side indicators",
+        "- Added/updated car logos for the Caterham 420R, Caterham Academy, Spec Racer Ford, and Super Formula Lights",
+        "- Added a country flag for Global",
+        "- Various plugin-level optimizations"
+      ]
+    },
+    {
+      "type": "image",
+      "src": [
+        "images/ds_4.0.12.png"
+      ]
+    }
+  ]
+},
+    {
+  "product": "commandspec",
+  "version": "2.1.1",
+  "blocks": [
+    {
+      "type": "notes",
+      "content": [
+        "- Fixed an issue where jumping between different Test Drive sessions could cause stale data, such as the car logo, to remain visible",
+        "- Fixed first-lap fuel usage being overstated in Practice and Qualifying sessions",
+        "- Fixed an issue where drivers who tow could temporarily jump to the top of the leaderboard until the field passed them",
+        "-- This also fixes an issue where other drivers' class positions could temporarily be offset between the Relative and Class leaderboards",
+        "-- This should also fix an issue in the Head to Head widget where a driver's gap could be incorrectly reported as another driver's gap",
+        "- Updated the closing rate parameters in the Head to Head widget and increased the polling rate",
+        "- Added/updated car logos for the Caterham 420R, Caterham Academy, Spec Racer Ford, and Super Formula Lights",
+        "- Added a country flag for Global",
+        "- Fixed a visibility and color code issue with the player and class sector arcs in the Slot B and Orbital Tracker Mini Slot widgets",
+        "- Slightly adjusted the visuals for the race progress widget",
+        "- Various plugin-level optimizations"
+      ]
+    }
+  ]
+},
+    {
   "product": "commandspec",
   "version": "2.1.0",
   "blocks": [

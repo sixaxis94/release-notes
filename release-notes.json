@@ -1,6 +1,71 @@
 {
   "items": [
     {
+  "product": "commandspec",
+  "version": "2.1.2",
+  "blocks": [
+    {
+      "type": "notes",
+      "content": [
+        "- Slot B widgets can now be changed on the fly by either clicking the panel directly, or by assigning a button for Dash Action C",
+        "- During gridding and formation lap, drivers' qualifying times are displayed in place of best lap and it's cleared when the race begins",
+        "- Added an indicator for drivers who are given slow down penalties",
+        "- Updated the unstable connection indicator so it's more legible",
+        "- Both, the slow down penalty and unstable connection indicator is now present in Relative panel in addition to the leaderboards",
+        "- The previous stale data fix for the driver roster still contained a minor issue that's now been fixed and shouldn't happen again",
+        "- You can now choose to see the fuel used per lap in place of lap time delta in the Relative page's Lap History Widget",
+        "-- This can be configured in the plugin within the Relative page settings",
+        "-- Note: this was previously experimental",
+        "- Increased precision of gaps in the head to head widget to 2 decimal places when gap is less than 10s",
+        "- Increased the sensitivity of the closing-rate graphics in the head to head widget",
+        "- Restored driver marker fading in the orbital tracker",
+        "- Added a new flag for FCY",
+        "- The leagues card has is no longer tagged experimental",
+        "- Removed the towing indicator for non race sessions",
+        "- Improved sector timing reliability around pit entry and brief off-track moments, including more consistent clearing of sector deltas",
+        "- Bumped the interval prominence so it's easier to read at a glance",
+        "- Pit service actions are now handled natively by the Mission Control plugin (no change to existing dashboard behavior)",
+        "- Changed how pit affected laps are displayed (the lap number now displays P instead)",
+        "- Updated the logic for finish order locking",
+        "-- During the state between checkered flag and official results classification, the leaderboard ordering is still not completely accurate",
+        "-- This should likely be fixed in the next update",
+        "- The leaderboard header switches from 'Standings' to 'Official Classification' when the offical results are declared",
+        "-- At this stage, the ordering of the leaderboard is accurate",
+        "- Misc minor visual tweaks"
+      ]
+    },
+    {
+      "type": "image",
+      "src": [
+        "images/cs_2.1.2.png"
+      ]
+    }
+  ]
+},
+    {
+  "product": "drivespec",
+  "version": "4.0.13",
+  "blocks": [
+    {
+      "type": "notes",
+      "content": [
+        "- The Slow Car alert widget has been redesigned and is now at the top of the dash",
+        "-- This makes it easier to see it in your peripheral vision and helps keep your eyes on the track",
+        "- The pit entry optimizer parameters have been adjusted to make this widget more effective",
+        "-- The distance to pit entrance and speed delta range has been increased",
+        "- During gridding and formation lap, drivers' qualifying times are displayed in place of best lap and it's cleared when the race begins",
+        "- Pit service actions are now handled natively by the Mission Control plugin (no change to existing dashboard behavior)"
+      ]
+    },
+    {
+      "type": "image",
+      "src": [
+        "images/ds_4.0.13.png"
+      ]
+    }
+  ]
+},
+    {
   "product": "drivespec",
   "version": "4.0.12",
   "blocks": [

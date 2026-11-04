@@ -2,6 +2,52 @@
   "items": [
     {
   "product": "commandspec",
+  "version": "2.1.3",
+  "blocks": [
+    {
+      "type": "notes",
+      "content": [
+        "-! New setting: Pit-lane driver visibility in Relative",
+        "-- Dynamic (default): Displays pit-lane drivers only when the player is also in the pit lane",
+        "-- Always Hide: Preserves the previous behavior of excluding pit-lane drivers",
+        "-- Always Show: Displays pit-lane drivers regardless of the player's location",
+        "-! New feature: Blue Flags & Dads league integration",
+        "-- League-specific driver divisions and colors are now displayed automatically in supported BFAD sessions",
+        "-- This also applies to Drive Spec",
+        "- Improved Broken Wing Racing League (BWRL) detection to better distinguish GT3 sessions from Miata and Endurance races, preventing divisions from appearing in unrelated series",
+        "-! Significant improvements to the Head-to-Head widget",
+        "-- Expanded sector history to display up to 6 previous sectors",
+        "-- Increased the sensitivity of closing-rate indicators so the second-stage arrows activate sooner when gaining or losing time",
+        "-- In Practice and Qualifying, the nearest eligible drivers ahead and behind on track are displayed",
+        "-- During races, drivers in the pit lane are skipped in favor of the next eligible driver by class position",
+        "-- Pit-lane drivers are always excluded, regardless of the Relative panel's pit-lane visibility setting",
+        "-- Improved gap accuracy by using the same calculation source as the Relative leaderboard",
+        "- Improved sector timing and history",
+        "-- Sector timing history now retains the previous 10 sectors across lap boundaries without affecting the existing per-lap display behavior",
+        "-- Increased the sector history count",
+        "-- Extended the time that class-best and personal-best sector information remains visible after starting a new lap",
+        "-- Adjusted the color thresholds for class-best sector deltas, increasing the threshold for red from 0.5s to 1.0s",
+        "- The pit exit marker and estimated pit stop times now directly show times based on the amount of fuel set to add. Previously this factored in the available fuel tank space.",
+        "-- The pit exit marker now adapts to changes in lap pace, improving accuracy during changing track conditions, such as a race transitioning from dry to wet",
+        "- The player's position now references their pit box when position telemetry becomes unavailable",
+        "- Added unstable connection and slowdown penalty indicators for the player in the Relative panel",
+        "- Fixed a minor inconsistency with how lapped cars were being displayed in the relative widget",
+        "- Improved session change detection to address issues encountered during heat racing",
+        "- Improved prediction logic for the White Flag Next Lap indicator (applies to all dashboards)",
+        "- Improved the lap reach widget to provide more useful information during the final stint of a race",
+        "-- This widget is still a work in progress, with the goal of providing an at-a-glance indication of whether you have enough fuel to reach the finish line"
+      ]
+    },
+    {
+      "type": "image",
+      "src": [
+        "images/cs_2.1.3.png"
+      ]
+    }
+  ]
+},
+    {
+  "product": "commandspec",
   "version": "2.1.2",
   "blocks": [
     {
